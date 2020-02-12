@@ -1,0 +1,31 @@
+#include <iostream>
+#include <stdio.h>
+int x;
+int y;
+int cont=0;
+int i;
+int rep;
+int main(){
+using namespace std;
+do{
+  cout<<"Algoritmo desenvolvido por Gabriel Miranda de Oliveira"<<endl<<"Contato: gabriel.miranda@mail.uft.edu.br"<<endl;
+cout << "Digite o numero inicial de teste: " << endl;
+cin >> x;
+cout << "Digite o numero final de teste (recomendo até 100 de diferença): " << endl;
+cin >> y;
+cout << "Resultado: " << endl;
+while (x < y) {
+x++;
+for (i = 2; i <= x-1; i++) {
+	if (x % i == 0) {
+				cont++;
+			}
+		}
+		if (cont == 0) cout << x << " é primo " << endl;
+		cont = 0;
+	}
+  cout<<"Digite 1 para fazer outro teste"<<endl;
+  cin>>rep;
+} while(rep>0);
+getchar();
+}
