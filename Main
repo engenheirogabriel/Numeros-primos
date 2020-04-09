@@ -8,7 +8,8 @@ int rep;
 int main(){
 using namespace std;
 do{
-  cout<<"Algoritmo desenvolvido por Gabriel Miranda de Oliveira"<<endl<<"Contato: gabriel.miranda@mail.uft.edu.br"<<endl;
+  cout<<"Algoritmo desenvolvido por Gabriel Miranda de Oliveira"<<endl;
+  cout<<"Contato: engenheiroancap@gmail.com"<<endl;
 cout << "Digite o numero inicial de teste: " << endl;
 cin >> x;
 cout << "Digite o numero final de teste (recomendo até 100 de diferença): " << endl;
